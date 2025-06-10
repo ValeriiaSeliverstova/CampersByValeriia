@@ -1,0 +1,16 @@
+.container {
+  padding: 60px 20px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #d84343;
+}
+
+.message {
+  font-size: 1rem;
+  color: #475467;
+}

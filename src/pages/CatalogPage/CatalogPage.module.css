@@ -1,0 +1,31 @@
+.catalogPage {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  padding: 24px;
+  max-width: 1440px;
+  margin: 24px auto;
+}
+
+.catalogList {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.notFound {
+  color: var(--color-red-main);
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  padding: 40px 20px;
+  margin: 0 auto;
+  width: 500px;
+  background-color: transparent;
+  border-radius: 12px;
+  line-height: 1.4;
+}

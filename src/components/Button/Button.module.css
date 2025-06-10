@@ -1,0 +1,22 @@
+.button {
+  background-color: var(--color-red-light);
+  border-radius: 200px;
+  padding: 16px 60px;
+  height: auto;
+  color: var(--color-white);
+  transition: background-color 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: var(--color-red-main);
+}
+
+.buttonText {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.08px;
+  font-family: "Inter", Helvetica, sans-serif;
+}

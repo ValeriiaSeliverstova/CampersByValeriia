@@ -1,0 +1,94 @@
+.profile {
+  margin-bottom: 64px;
+}
+
+.name {
+  flex: 1;
+  color: var(--color-dark);
+  font-size: 16px;
+}
+
+.price {
+  color: var(--color-dark);
+  font-weight: 600;
+}
+
+.meta {
+  margin: 16px 0;
+  color: var(--color-dark);
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.description {
+  color: var(--color-blue-dark);
+  font-size: 14px;
+  margin-bottom: 12px;
+  font-weight: 400;
+}
+
+.locationWrapper {
+  display: flex;
+  align-items: center;
+  gap: 0;
+}
+
+.location {
+  font-size: 14px;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+  margin: 28px 0;
+}
+
+.galleryImage {
+  width: 292px;
+  height: 312px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.galleryImage:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.tabButtons {
+  display: flex;
+  gap: 24px;
+  margin-top: 32px;
+  border-bottom: 1px solid var(--color-gray-soft);
+}
+
+.tabButton {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--color-dark);
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 12px 0;
+  position: relative;
+}
+
+.tabButton.active {
+  color: var(--color-dark);
+  border-bottom: 3px solid var(--color-red-light);
+}
+
+.tabContent {
+  margin-top: 44px;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}

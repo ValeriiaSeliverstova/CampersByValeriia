@@ -1,0 +1,53 @@
+.formInput {
+  background-color: var(--color-gray-lightest);
+  border: none;
+  border-radius: 10px;
+  padding: 18px;
+  width: 527px;
+  margin-bottom: 14px;
+}
+
+.dayPickerContainer {
+  color: var(--color-gray-dark);
+  position: absolute;
+  top: 100%;
+  z-index: 20;
+  margin-top: 8px;
+  background: white;
+  border: 1px solid var(--color-gray-dark);
+  border-radius: 12px;
+  padding: 14px;
+}
+
+.DayPickerStyle {
+  border-spacing: 0px;
+}
+
+.my-selected {
+  background-color: var(--color-gray-dark);
+  color: white;
+  border-radius: 999px;
+}
+
+.my-today {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.range-start {
+  background-color: var(--color-gray-dark);
+  color: white;
+  border-radius: 999px 0 0 999px;
+}
+
+.range-end {
+  background-color: var(--color-gray-dark);
+  color: white;
+  border-radius: 0 999px 999px 0;
+}
+
+.range-middle {
+  background-color: var(--color-gray-dark);
+  color: white;
+  border-radius: 0;
+}

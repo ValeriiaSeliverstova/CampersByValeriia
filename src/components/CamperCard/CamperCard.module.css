@@ -1,0 +1,92 @@
+.card {
+  display: flex;
+  gap: 24px;
+  background: var(--color-white);
+  border: 1px solid var(--color-gray-soft);
+  border-radius: 20px;
+  padding: 24px;
+  max-width: 888px;
+  height: fit-content;
+}
+
+.image {
+  width: 290px;
+  height: 310px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.name {
+  flex: 1;
+  color: var(--color-dark);
+}
+
+.price {
+  color: var(--color-dark);
+  font-weight: 600;
+}
+
+.meta {
+  margin: 8px 0;
+  color: var(--color-dark);
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.description {
+  color: var(--color-blue-dark);
+  font-size: 14px;
+  margin-bottom: 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 500px;
+  font-weight: 400;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.locationWrapper {
+  display: flex;
+  align-items: center;
+  gap: 0;
+}
+
+.location {
+  font-size: 14px;
+}
+
+.link {
+  margin-top: 24px;
+}
+
+.favoriteBtn {
+  background-color: transparent;
+  border: none;
+}
+
+.heartFilled {
+  color: var(--color-red-main);
+}

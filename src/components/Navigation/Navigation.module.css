@@ -1,0 +1,53 @@
+.nav {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: var(--color-gray-lightest);
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  display: inline-block;
+  letter-spacing: 0;
+}
+
+.travel {
+  color: var(--color-dark);
+}
+
+.trucks {
+  color: var(--color-blue-dark);
+}
+
+.navList {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 32px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navItem {
+}
+
+.navLink {
+  text-decoration: none;
+  color: var(--color-dark);
+  font-size: 18px;
+  transition: color 0.3s;
+  position: relative;
+}
+
+.navLink:hover {
+  color: var(--color-red-main);
+}
+
+.active {
+  color: var(--color-red-light);
+}
